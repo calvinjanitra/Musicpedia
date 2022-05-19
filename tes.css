@@ -1,0 +1,70 @@
+body{
+    font : 16px/28px arial, sans-serif;
+    background-image : url(live.jpg);
+}
+
+/* CONTAINER */
+.container{
+    width : 800px;
+    margin : auto;
+    background-color : #eaeaea;
+}
+.header{
+    padding : 20px 20px 0;
+}
+img{
+    margin-top : 10px;
+    margin-bottom : -10px;
+    margin-right : 10px;
+    float : left;
+}
+
+/* NAVIGASI */
+.navigasi ul li{
+    font-size : 14px;
+    display : inline-block;
+    margin-right : 5px;
+}
+.navigasi a{
+    text-decoration  : none;
+    color : salmon;
+}
+.navigasi a:hover{
+    background-color : lightblue;
+    color : white;
+}
+
+/* IMAGE */
+.hero{
+    height : 280px;
+    background-image : url(band2.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-position-y: -20px;
+    border-top : 5px solid orange;
+    border-bottom : 5px solid lightblue;
+}
+/* MAIN */
+.main{
+    padding : 20px;
+    text-align: justify;
+}
+.main h2{
+    font-size : 28px;
+    font-weight : bold;
+}
+.main .author{
+    font-size : 14px;
+    margin-top : -5px;
+}
+.main p{
+    font-size : 15px;
+}
+
+.copyright{
+    font-size : 13px;
+    color : white;
+    background-color : black;
+    text-align : center;
+    border : 5px solid black;
+}
